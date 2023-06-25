@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link rel="Stylesheet" href="login.css">
+</head>
+<body>
+    <h2>Registration Form</h2>
+    <div class="container">
+        <div class="left">
+            NAME :
+            <input type="text" id="name" required>
+            <br>
+            DATE OF BIRTH :
+            <input type="date" id="dob" required>
+            <br>
+            EMAIL ID :
+            <input type="email" id="email" required>
+            <br>
+            MOBILE NO :
+            <input type="number" id="mobile" required>
+            <br>
+            GENDER :
+            <input type="text" id="gender">
+            <br>
+            SKILLS :
+            <input type="text" id="skills">
+            <br>
+            <br>
+            <button id="trigger" onclick="createRecord()">Register</button>
+            <button class="clear">Clear</button>
+        </div>
+        <div class="center"></div>
+        <div class="right">
+            
+        </div>
+    </div>
+    <div id="demo"></div>
+    <script src="login.js">
+    </script>
+</body>
+</html>
